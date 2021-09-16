@@ -1,0 +1,51 @@
+/* pemanggilan font custom */
+@font-face {
+    font-family: "courgette";
+    src: url("Courgette/Courgette-Regular.ttf");
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #93B5C6;
+}
+
+#tabel-siswa {
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: blue;
+}
+
+#tabel-siswa h1 {
+    font-family: Courgette;
+    margin-top: 15px;
+}
+
+th {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #297F87;
+}
+
+td {
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #297F87;
+}
+
+th, td {
+    padding: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
